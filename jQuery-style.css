@@ -78,8 +78,8 @@ button:hover{
 }*/
 
 #results {
-    /*display: flex;
-    flex-wrap: wrap;*/
+    max-width: 780px;
+    margin: 0 auto;
 }
 
 img {
