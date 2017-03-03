@@ -24,7 +24,8 @@
         var image = $('<img>');
         image.attr({
             src: photoData.url_s,
-            alt: photoData.title
+            alt: photoData.title,
+            class: "responsive-img"
         });
 
         link.append(image);
